@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+    </style>
+    <script
+      src="https://kit.fontawesome.com/f846afc8a2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bonsai</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="dropdownBackground"></div>
+      <div class="links">
+        <div class="logo">
+          <img
+            src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635b95cfdbc1e264b35486ad_Symbols.svg"
+            alt="bonsai logo"
+          />
+        </div>
+
+        <ul class="links-container">
+          <li>
+            <a href="#">Product<i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown dropdown1">
+              <li>Game Systems</li>
+              <li>Laptops</li>
+              <li>Phones</li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Template<i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown dropdown2">
+              <li>Standard</li>
+              <li>Professional</li>
+              <li>Customize</li>
+            </ul>
+          </li>
+          <a href="">Pricing</a>
+          <a href="">Reviews</a>
+        </ul>
+
+        <div class="action-btns">
+          <a href="#" class="login">Login</a>
+          <a href="#" class="start-free">Start Free</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="wrapper">
+      <div class="intro-wrapper">
+        <div class="pricing-title">
+          <h1>Pricing & Plans</h1>
+        </div>
+
+        <div class="toggle-container">
+          <span>Monthly</span>
+          <!-- checkbox -->
+          <input type="checkbox" id="toggle" />
+          <label for="toggle" id="button"></label>
+          <span>Yearly</span>
+        </div>
+      </div>
+
+      <div class="pricing-selection">
+        <div class="card-container">
+          <div class="card">
+            <h1>Workflow</h1>
+            <div class="price">
+              <span>$</span>
+              <div class="amount workflow-reg">10/Month</div>
+            </div>
+            <div class="seperator"></div>
+            <ul>
+              <li>
+                <span class="check">&check;</span>Unlimited Clients & Projects
+              </li>
+              <li><span class="check">&check;</span>Proposals</li>
+              <li><span class="check">&check;</span>Contracts</li>
+              <li><span class="check">&check;</span>Invoicing and Payments</li>
+              <li><span class="check">&check;</span>Client CRM</li>
+              <li><span class="check">&check;</span>Project Management</li>
+              <li>
+                <span class="check">&check;</span>iOS, Android, Chrome, & Mac
+                Apps
+              </li>
+            </ul>
+            <button class="start-now pad-btn">Start Free</button>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card plus">
+            <h1>Workflow Plus</h1>
+            <div class="price">
+              <span>$</span>
+              <div class="amount workflow-prem">15/Month</div>
+            </div>
+            <div class="seperator"></div>
+            <ul>
+              <li><span class="check">&check;</span>Everything in Workflow</li>
+              <li><span class="check">&check;</span>Custom Branding</li>
+              <li><span class="check">&check;</span>Workflow Automations</li>
+              <li><span class="check">&check;</span>Client Portal</li>
+              <li>
+                <span class="check">&check;</span>Unlimited Scheduling events
+              </li>
+              <li><span class="check">&check;</span>QuickBooks Integration</li>
+              <li><span class="check">&check;</span>Calendly Integration</li>
+              <li><span class="check">&check;</span>Zapier Integration</li>
+              <li>
+                <span class="check">&check;</span>Up to 15 Project Collaborators
+              </li>
+            </ul>
+            <button class="start-now">Start Free</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="subplans-container">
+        <h1>Super charge your work with add-ons</h1>
+        <div class="plans">
+          <div class="plan">
+            <div>
+              <h2 class="plan-title">Collaborators</h2>
+              <p class="plan-desc">
+                Invite other users to specific projects for limited access and
+                functionality.
+              </p>
+            </div>
+            <span class="plan-price">Free</span>
+          </div>
+          <div class="plan">
+            <div>
+              <h2 class="plan-title">Partners</h2>
+              <p class="plan-desc">
+                Invite other users to full account access and company
+                management.
+              </p>
+            </div>
+            <div class="price-column">
+              <span class="monthly-price">$9</span>
+              <span class="by-month">/Month</span>
+            </div>
+          </div>
+          <div class="plan">
+            <div>
+              <h2 class="plan-title">Bonsai Tax</h2>
+              <p class="plan-desc">
+                Track expenses, identify write-offs, and estimate quartely taxes
+                easily.
+              </p>
+            </div>
+            <div class="price-column">
+              <span class="monthly-price">$10</span>
+              <span class="by-month">/Month</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
