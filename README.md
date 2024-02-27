@@ -8,7 +8,7 @@
 
 ## Description
 
- A landing page challenge for a fictional company that I found on [frontendmentor](https://www.frontendmentor.io/). In addition to completing the challenge, I added some javascript with
+ A landing page challenge for a fictional company named Bonsai that I created. In addition to completing the challenge, I added some javascript with
  a hover dropdown as well as a toggle button to switch between pricing plans by month or year.
 
  ## Built With
